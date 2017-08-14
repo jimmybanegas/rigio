@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "7"
+before_deploy: "git push origin master:refs/heads/master"
 deploy:
   provider: azure_web_apps
   skip_cleanup: true

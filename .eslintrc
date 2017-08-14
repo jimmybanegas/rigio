@@ -1,0 +1,6 @@
+{
+  "extends": "loopback",
+  "env": {
+    "jasmine": true
+  }
+}
